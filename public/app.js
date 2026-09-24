@@ -150,8 +150,8 @@ async function updateVehicles() {
 updateVehicles();
 
 
-// Uppdatera var femte sekund
+// Uppdatera var femte sekund, ändrat till en gång i minuten
 setInterval(
     updateVehicles,
-    5000
+    60000
 );
